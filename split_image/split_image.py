@@ -19,7 +19,7 @@ def fill_image(image):
 
 
 def cut_image(image):
-    width, height = image.size
+    width, _ = image.size
     item_width = int(width / 3)  # 因为朋友圈一行放3张图
     box_list = []
     for i in range(0, 3):
