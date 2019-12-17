@@ -1,2 +1,8 @@
 *.png
 *.jpg
+read_email/test.py
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/gadget.iml
