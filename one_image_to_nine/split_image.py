@@ -39,7 +39,7 @@ def save_images(image_list):
 
 
 if __name__ == '__main__':
-    file_path = "1.jpg"
+    file_path = "./origin.png"
     image = Image.open(file_path)
     image = fill_image(image)
     image_list = cut_image(image)
