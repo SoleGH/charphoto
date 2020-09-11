@@ -4,7 +4,7 @@ import poplib
 from email.parser import Parser
 
 email = 'yangbifei@touchdata.io'
-password = 'yangbfyg'
+password = ''
 pop3_server = 'mail.touchdata.io'
 
 server = poplib.POP3(pop3_server)  # 连接到POP3服务器:
